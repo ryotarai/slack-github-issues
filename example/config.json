@@ -5,8 +5,8 @@
             "owner": "ryotarai",
             "repo": "me",
             "labels": ["ask"],
-            "modalTitle": "Ask",
-            "modalDescription": "This is a mrkdwn section block :ghost: *this is bold*, and ~this is crossed out~, and <https://google.com|this is a link>",
+            "modalTitle": "Ask me anything",
+            "modalDescription": "Ask me anything :innocent:",
             "modalSubmissionMessage": "Thank you for submission :+1:"
         }
     ]
