@@ -63,3 +63,4 @@ Deploy `quay.io/ryotarai/slack-github-issues` image with the following environme
 * `SLACK_BOT_TOKEN`: "Bot User OAuth Access Token" from Slack App page
 * `SLACK_SIGNING_SECRET`: "Signing Secret" from Slack App page
 * `GITHUB_SLACK_CONFIG`: Path to config file
+* `GITHUB_BASE_URL`: (Optional) If you are GitHub Enterprise user, set this to `https://ghe.example.com/api/v3`

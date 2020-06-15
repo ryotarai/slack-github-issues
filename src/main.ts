@@ -5,6 +5,7 @@ import { Octokit } from "@octokit/rest";
 
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN!,
+  baseUrl: process.env.GITHUB_BASE_URL || "https://api.github.com",
 });
 
 const app = new bolt.App({
