@@ -1,10 +1,11 @@
 {
   "name": "github-issues-slack",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
   "author": "Ryota Arai <ryota.arai@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@octokit/rest": "^18.0.0",
     "@slack/bolt": "^2.1.1"
   },
   "devDependencies": {
