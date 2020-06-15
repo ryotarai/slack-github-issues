@@ -29,12 +29,12 @@ In this instruction, assuming Slash Command name is `/ask` and this app is acces
 
 ### 1. Create a Slack App
 
-0. Go to https://api.slack.com/apps and create a new app
-0. Go to "Basic Information" page and get "Signing Secret"
-0. Go to "OAuth & Permissions" page, add `chat:write` and `commands` to "Bot Token Scopes"
-0. Install the App and get "Bot User OAuth Access Token".
-0. Go to "Slash Commands" page and add `/ask` command with request URL `https://yourapp.example.com/slack/events`
-0. Go to "Interactivity & Shortcuts" page, enable "Interactivity" and put `https://yourapp.example.com/slack/events` into Request URL
+1. Go to https://api.slack.com/apps and create a new app
+1. Go to "Basic Information" page and get "Signing Secret"
+1. Go to "OAuth & Permissions" page, add `chat:write` and `commands` to "Bot Token Scopes"
+1. Install the App and get "Bot User OAuth Access Token".
+1. Go to "Slash Commands" page and add `/ask` command with request URL `https://yourapp.example.com/slack/events`
+1. Go to "Interactivity & Shortcuts" page, enable "Interactivity" and put `https://yourapp.example.com/slack/events` into Request URL
 
 ### 2. Deploy this app
 
